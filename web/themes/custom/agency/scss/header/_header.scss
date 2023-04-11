@@ -1,0 +1,434 @@
+.header,.site-footer {
+  position: relative;
+  height: 140px;
+  background-color: $basic_blue !important;
+  margin: 0;
+}
+
+// Log in logo style.
+.block-block-content017cd8f2-aca3-4381-b0ff-f33cfcfcb553 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 37px;
+  width: 80%;
+  padding-right: 20px;
+
+  .fa-user {
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      transition: all 0.2s ease;
+      color: rgba(255, 255, 255, 0.79);
+    }
+
+    &:focus {
+      transition: all 0.2s ease;
+      color: rgba(255, 255, 255, 0.79);
+    }
+  }
+}
+
+//Button log out
+.block-block-content49c96336-9e34-49c0-8572-91bc4aaa2ecf {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+
+  .field--name-field-link-logout a {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    white-space: nowrap;
+    color: white;
+    cursor: pointer;
+
+    &:after {
+      font-family: 'Font Awesome 5 Free', serif;
+      content: '\f2f5';
+      display: flex;
+      align-items: center;
+      margin-left: 5px;
+      font-weight: 800;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+// Language switcher dropdown style.
+.block-dropdown-language {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: right;
+  justify-self: right;
+  align-items: flex-start;
+  height: 37px;
+  width: 100%;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  font-size: 16px;
+
+  fieldset {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+  }
+
+  .fieldset-legend {
+    display: none;
+  }
+
+  .active-language {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 0;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #ffffff;
+
+    .language-icon {
+      height: 22px;
+      width: 22px;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      margin-right: 5px;
+      padding: 0;
+    }
+
+    &:hover {
+      background: $blue !important;
+    }
+  }
+
+  .secondary-action {
+    .language-link {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #ffffff;
+
+      .language-icon {
+        height: 10px;
+        width: 15px;
+        margin-right: 5px;
+        padding: 0;
+      }
+    }
+
+    &:hover {
+      background: #173784 !important;
+    }
+  }
+}
+
+.dropbutton-multiple.open .dropbutton-widget {
+  .dropbutton {
+    &::after {
+      content: ' ';
+      position: absolute;
+      top: 35px;
+      right: 0;
+      display: block;
+      height: 63px;
+      width: 105px;
+      border: 1px solid rgba(255, 255, 255, .2);
+      background: $blue;
+      z-index: -1;
+    }
+  }
+}
+
+.js {
+  .dropbutton {
+    .secondary-action {
+      border-top-color: transparent !important;
+    }
+
+    .dropbutton-action, a {
+      height: 30px;
+      margin-left: auto;
+      margin-right: auto;
+
+      &:hover {
+        margin-left: auto;
+        margin-right: auto;
+        background: #173784 !important;
+        border-bottom: none !important;
+      }
+    }
+  }
+
+  .dropbutton-multiple .dropbutton-widget {
+    position: relative;
+    top: 3px;
+    height: 100px;
+    width: 105px;
+    padding: 0;
+    border-radius: 5px;
+  }
+
+  .dropbutton-widget {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+
+    .dropbutton {
+      position: relative;
+      right: 0;
+      display: block;
+      height: 120px;
+      margin-top: -2px;
+    }
+  }
+
+  .dropbutton-widget .dropbutton :nth-child(3) {
+    margin-top: 6px;
+  }
+
+  .dropbutton-toggle {
+    button {
+      background-image: url(../images/arrows/white-down-arrow.png) !important;
+      background-size: 13px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: transparent !important;
+    }
+
+    .dropbutton-arrow:hover {
+      background: transparent;
+    }
+  }
+}
+
+.dropbutton-multiple .dropbutton {
+  border: none;
+
+  .dropbutton-action > * {
+    margin-right: 0;
+  }
+}
+
+.dropbutton-arrow {
+  border: none;
+}
+
+.dropbutton-toggle {
+  right: 0;
+  height: 32px;
+  width: 15px;
+}
+
+.moldova-header-bottom {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 190px calc(100% - 190px);
+
+  // Form, site map, rss, logo style.
+  .region-header-bottom {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+
+.block-views-blocklast-minute-tours-block-1,
+.block-views-blockeurope-vacation-deals-block-1,
+.block-views-blockcome-with-us-recommends-block-1{
+  h2{
+    font-size:16px;
+    color:$basic_light_blue;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  .view-content.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } 
+  .views-row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .views-field-title{
+      color: $basic_blue;
+    }
+    .views-field-field-tour-dates{
+      font-size:15px;
+      color:$basic_blue;
+    }
+    .views-field-view-node{
+      margin-top:-30px;
+      .field-content{
+       border-radius: 5px;
+       background: $basic_blue; 
+       padding:10px;
+      &:hover{
+        background: $basic_light_blue; 
+      }
+      a{
+        color:$white;
+      }
+      }
+      
+    }
+  }
+}
+.block-views-blockeurope-vacation-deals-block-1{
+  .views-field-field-tour-dates{
+   margin-top:-30px;
+  }
+  .views-field-view-node{
+    margin-top:0px !important;
+  }
+}
+
+.block-views-blockcome-with-us-recommends-block-1{
+  .views-field-view-node{
+    .field-content{
+    margin:20px !important;  
+    }
+    
+  }
+}
+.block-views-blockour-partners-block-1{
+  background-color: $background_partners;
+  padding: 20px 0;
+  h2{
+      font-size:16px;
+      color:$basic_light_blue;
+      text-align:center;
+      margin-bottom:20px;
+  }
+  .view-content.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 0px 250px;
+  } 
+}
+.block-block-content9920a754-1fc7-4fb8-99a7-080e3884d990{
+  background-color: $light-blue;
+  .content{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 28px;
+  }
+  .field--name-field-title-request{
+    font-size:25px;
+    color:$basic_light_blue;
+    text-align:center;
+    font-weight:200;
+    h6{
+      margin:30px 0 0 0;
+    }
+  }
+  .field--name-field-question-request{
+    font-size:18px;
+    color:$basic_blue;
+  }
+  .field--name-field-webform-request{
+    .webform-submission-contacts-block-content-7-add-form{
+      .js-form-item{
+        display: flex;
+        flex-direction: column;
+        margin: 13px 0;
+      }
+      label{
+        font-size:14px;
+        color:$basic_blue;
+        margin-bottom:10px;
+      }
+      input{
+        padding:10px;
+        color:$basic_blue;
+        border-color:$white;
+        border-radius:5px;
+      }
+      .form-item-name{
+        display: flex;
+        flex-direction: column;
+      }
+      .webform-actions{
+        input{
+        background-color:$basic_blue;
+        border-radius: 5px;
+        border-width:1px solid $basic_blue; 
+        color:$white;
+        font-weight:800;
+        }
+      }
+    }
+  }
+}
+.block-field-blocknodepagebody{
+  h5{
+    font-size: 15px;
+    font-weight: 600;
+    color:$basic_blue;
+  }
+}
+.view-director-teams{
+  .view-content.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    .views-row{
+      text-align:center;
+      margin-bottom:40px;
+      .views-field-name{
+        font-size:20px;
+        font-weight:600;
+        color:$basic_blue;
+        h4{
+          margin:10px 0;
+        }
+      }
+      .views-field-field-posada{
+        font-size:14px;
+        font-weight:600;
+        color:$basic_blue;
+        margin-bottom:10px;
+      }
+      .views-field-field-tel,.views-field-mail{
+        color:$basic_blue;
+         .field-content{
+          color:$basic_light_blue;
+          a{
+            color:$basic_light_blue;
+          }
+        }
+      }
+    }
+  }
+}
+

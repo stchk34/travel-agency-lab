@@ -1,0 +1,66 @@
+.navbar{
+  padding-top:30px;
+  .navbar-brand{
+    color:$white;
+    font-weight:700;
+    font-size:20px;
+    margin-left:30px;
+  }
+}
+.container{
+  .title{
+    text-align:center;
+    color:$basic_blue;
+  }
+}
+.navbar-collapse{
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-nav{
+  margin-right:20px;
+  .nav-item{
+    color:$white;
+    font-weight:400;
+    font-size:17px;
+  }
+  .nav-item .active{
+    color:$white;
+    font-weight:600;
+    font-size:17px;
+  }
+}
+.visually-hidden-focusable{
+  display:none;
+}
+.ui-dialog{
+  width:600px !important;
+  .ui-dialog-titlebar,
+  .field--name-field-name-and-surname,
+  .field--name-field-your-email{
+    color:$basic_blue;
+    font-size:16px;
+    padding:10px 0;
+    font-weight:400;
+    input{
+      width:50%;
+      margin-left:5px;
+    }
+  }
+  .field--name-event-state-reference{
+    color:$basic_blue;
+    font-size:16px;
+    padding:10px 0;
+    font-weight:400;
+    input{
+      margin-left:5px;
+    }
+  }
+  button{
+    background-color: $basic_blue;
+    color:$white;
+    font-size:15px;
+    font-weight:600;
+  }
+}

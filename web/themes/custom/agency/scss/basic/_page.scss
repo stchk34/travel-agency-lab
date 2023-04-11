@@ -1,0 +1,178 @@
+.field--name-body{
+    font-size: 15px;
+    font-weight: 600;
+    color:$basic_blue;
+  }
+
+    .webform-submission-zalishte-sviy-vidguk-node-51-add-form{
+        background-color: $grey_border;
+        border-radius:10px;
+        margin-top:30px;
+        padding:20px;
+        .js-webform-type-webform-radios-other { 
+             display:flex;
+            flex-direction:row;  
+          .fieldset-wrapper,.form-item-type-radios{
+        display:flex;
+        flex-direction:row;  
+        }
+    }
+    .fieldset-legend{
+        font-size:14px;
+        color:$basic_blue;
+    }
+    .fieldset-wrapper{
+        padding:20px;
+    }
+      .js-form-item{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0;
+
+        .form-item-name,
+        .form-item-email,
+        .js-form-type-textarea{
+            input{
+                margin:5px 10px; 
+            }
+        }
+      }
+      label{
+        font-size:14px;
+        color:$basic_blue;
+        margin-bottom:10px;
+      }
+      input,textarea{
+        padding:10px;
+        color:$basic_blue;
+        border-color:$white;
+        border-radius:5px;
+      }
+      .form-item-name{
+        display: flex;
+        flex-direction: column;
+      }
+      .webform-actions{
+        input{
+        background-color:$basic_blue;
+        border-radius: 5px;
+        border-width:1px solid $basic_blue !important; 
+        color:$white;
+        font-weight:800;
+        }
+      }
+    }
+
+
+
+    .block-field-blocknodetour-itemfield-after-title-text{
+        margin-bottom:20px;
+        .field--name-field-after-title-text{
+            font-size:15px;
+            font-weight:400;
+            color:$basic_blue;
+            text-align:center; 
+            padding:0 50px;
+        }
+    }
+    .block-field-blocknodetour-itemfield-primary-media-tour{
+        .field--name-field-primary-media-tour{
+            display: flex;
+            justify-content: center;
+            margin-bottom:30px;
+        }
+    }
+    .block-field-blocknodetour-itemfield-description-location,
+    .block-field-blocknodetour-itemfield-tour-dates{
+        font-size:18px;
+        font-weight:400;
+        color:$basic_blue;
+        margin-bottom:20px;
+        line-height: 1.6;
+        .field__label{
+        font-weight:600;
+        font-size:16px;
+        }
+    }
+    .block-field-blocknodetour-itemfield-hote{
+        .field__label{
+            font-weight:600;
+            font-size:18px;
+            color:$basic_blue;
+            text-align:center;
+        }
+        .field__item{
+        font-size:18px;
+        font-weight:400;
+        color:$basic_blue;
+        margin-bottom:20px;
+        line-height: 1.6;
+        li{
+            list-style: circle !important;
+            margin-left: 40px;
+        }
+        }
+    }
+    .block-field-blocknodetour-itemfield-availability-hourly{
+        .field__label{
+            font-weight:600;
+            font-size:18px;
+            color:$basic_blue;
+            text-align:center;
+            margin-bottom:20px;
+        }
+        .calendar-set{
+            color:$basic_blue;
+            margin-bottom:40px;
+        }
+    }
+    #block-agency-local-actions{
+        display:flex;
+        justify-content: center;
+        margin:40px;
+        a{
+            border: 3px solid $basic_blue;
+            background-color: $white;
+            color: $basic_blue;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius:5px;
+           
+        }
+    }
+    .bee-add-reservation-form{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:30px;
+        padding:20px;
+
+        .js-form-item{
+            display: flex;
+            flex-direction: column;
+            margin: 5px 0;
+          }
+        #edit-start-date-date, #edit-end-date-date{
+            padding:10px;
+        }
+        #edit-start-date-time, #edit-end-date-time{
+            padding:9px;
+        }
+        #edit-start-date, #edit-end-date{
+            display:flex;
+            flex-direction:row;
+        }
+        .form-item-repeat{
+            display:flex;
+            flex-direction:row;
+        }
+        #edit-submit{
+            background-color:$basic_blue;
+            border-radius: 5px;
+            border-width:1px solid $basic_blue !important; 
+            color:$white;
+            font-weight:800;
+            padding:10px;
+        }
+    }
